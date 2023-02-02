@@ -930,7 +930,7 @@ class PlPlLanguageProvider(dataGenerator: DataGenerator,) : NuclearLanguageProvi
         addDamageSource(DamageSources.radiation, "%1\$s umarł przez chorobę popromienną", "%1\$s umarł przez chorobę popromienną podczas walczenia z %2\$s")
         addDamageSource(DamageSources.shrapnel, "%1\$s został poszarpany szrapnelem", "%1\$s został poszarpany szrapnelem podczas walki z %2\$s")
 
-        addAttribute(Attributes.RADIATION_RESISTANCE, "Odporność na promieniowanie")
+        addAttribute(Attributes.RADIATION_RESISTANCE, "Odporności na promieniowanie")
 
         add(LangKeys.ARMOR_BLAST_PROTECTION, "Modyfikator obrażeń %s przeciwko eksplozjom")
         add(LangKeys.ARMOR_CUSTOM_GEIGER, "Wbudowany licznik Geigera na ekranie")
